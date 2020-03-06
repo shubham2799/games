@@ -1,0 +1,84 @@
+body {
+	background: #c2e59c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.h1 {
+	width: 400px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 60px;
+	color: red;
+	box-shadow: 10px 10px 8px rgba(105,105,105,0.7);
+}
+
+.head {
+	color: red;
+	font-size: 3em;
+	margin-bottom: 25px;
+}
+
+table {
+	margin: auto;
+	margin-top: 50px;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	color: #000080;
+}
+
+.vertical {
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+}
+
+.horizontal {
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.box , .result{
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.result {
+	color: green; 
+	margin-top: 30px;
+}
+
+.but {
+	width: 70px;
+	margin: 30px auto;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 25px;
+	color: purple;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+@media(max-width: 1000px) {
+	.container {
+		zoom: 150%;
+		height: 66.67vh;
+	}
+}
+
+.inner {
+    position: relative;
+    top: 30%;
+    transform: translateY(-30%);
+    text-align: center;
+}

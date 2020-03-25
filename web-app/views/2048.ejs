@@ -2,54 +2,52 @@
 <link rel="stylesheet" type="text/css" href="2048.css">
 
 <div class="container">
-	<div class="inner">
-		<p class="h"><strong>2048</strong></p>
-		<div class="row">
-			<div class="col-lg-7">
-				<h2 class="sc">Score : <span class="score">0</span></h2>
-				<table>
-					<tr>
-						<td class="c00 f1"></td>
-						<td class="c01 f1"></td>
-						<td class="c02 f1"></td>
-						<td class="c03 f1"></td>
-					</tr>
+	<h1 class="text-center my-3">2048</h1>
+	<div class="row">
+		<div class="col-md-7">
+			<h4 class="sc">Score: <span class="score">0</span></h4>
+			<table>
+				<tr>
+					<td class="c00 f1"></td>
+					<td class="c01 f1"></td>
+					<td class="c02 f1"></td>
+					<td class="c03 f1"></td>
+				</tr>
 
-					<tr>
-						<td class="c10 f1"></td>
-						<td class="c11 f1"></td>
-						<td class="c12 f1"></td>
-						<td class="c13 f1"></td>
-					</tr>
+				<tr>
+					<td class="c10 f1"></td>
+					<td class="c11 f1"></td>
+					<td class="c12 f1"></td>
+					<td class="c13 f1"></td>
+				</tr>
 
-					<tr>
-						<td class="c20 f1"></td>
-						<td class="c21 f1"></td>
-						<td class="c22 f1"></td>
-						<td class="c23 f1"></td>
-					</tr>
+				<tr>
+					<td class="c20 f1"></td>
+					<td class="c21 f1"></td>
+					<td class="c22 f1"></td>
+					<td class="c23 f1"></td>
+				</tr>
 
-					<tr>
-						<td class="c30 f1"></td>
-						<td class="c31 f1"></td>
-						<td class="c32 f1"></td>
-						<td class="c33 f1"></td>
-					</tr>
-				</table>
+				<tr>
+					<td class="c30 f1"></td>
+					<td class="c31 f1"></td>
+					<td class="c32 f1"></td>
+					<td class="c33 f1"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-md-5 mt-3">
+			<div class="bot text-center">
+				<h5 class="message mx-3"></h5>
+				<button class="reset btn btn-info">Reset</button>
 			</div>
-			<div class="col-lg-5 mt-5">
-				<div class="bot">
-					<h3 class="text-center message"> </h3>
-					<button class="reset btn btn-info">Reset</button>
+			<div class="controls my-3">
+				<button class="btn large btn-success m-1 up px-3"><i class="fas fa-arrow-up"></i></button>
+				<div class="row">
+					<button class="btn large btn-success m-1 mr-5 left px-3"><i class="fas fa-arrow-left"></i></button>
+					<button class="btn large btn-success m-1 ml-5 right px-3"><i class="fas fa-arrow-right"></i></button>
 				</div>
-				<div class="controls my-5">
-					<button class="btn large btn-success m-1 up px-4"><i class="fas fa-arrow-up"></i></button>
-					<div class="row">
-						<button class="btn large btn-success m-1 mr-5 left px-4"><i class="fas fa-arrow-left"></i></button>
-						<button class="btn large btn-success m-1 ml-5 right px-4"><i class="fas fa-arrow-right"></i></button>
-					</div>
-					<button class="btn large btn-success m-1 down px-4"><i class="fas fa-arrow-down"></i></button>
-				</div>
+				<button class="btn large btn-success m-1 down px-3"><i class="fas fa-arrow-down"></i></button>
 			</div>
 		</div>
 	</div>

@@ -4,14 +4,6 @@ body {
 	background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.h1 {
-	width: 400px;
-	margin: 10px auto;
-	text-align: center;
-	font-size: 60px;
-	box-shadow: 10px 10px 8px rgba(105,105,105,0.7);
-}
-
 .head {
 	font-size: 3em;
 	margin-bottom: 25px;
@@ -62,21 +54,13 @@ p {
 	color: purple;
 }
 
-.container {
-    position: relative;
-    height: 100vh;
+.center {
+	width: 100%;
+	max-width: 500px;
+	margin: 100px auto;
 }
 
-@media(max-width: 1000px) {
-	.container {
-		zoom: 150%;
-		height: 66.67vh;
-	}
-}
-
-.inner {
-    position: relative;
-    top: 30%;
-    transform: translateY(-30%);
-    text-align: center;
+img {
+	width: 125px;
+	height: 125px;
 }
